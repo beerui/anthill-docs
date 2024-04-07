@@ -20,12 +20,12 @@ tag:
 ::: code-tabs#shell
 @tab:active yarn
 ```bash
-yarn add @anthead/core --registry http://192.168.4.202:4873/
+yarn add @brewer/anthill-core
 ```
 
 @tab npm
 ```bash
-npm i @anthead/core --registry http://192.168.4.202:4873/
+npm i @brewer/anthill-core
 ```
 
 :::
@@ -33,17 +33,17 @@ npm i @anthead/core --registry http://192.168.4.202:4873/
 ### 使用
 
 ```typescript
-import { BaseSearchBar } from '@anthead/core';
+import { BaseSearchBar } from '@brewer/anthill-core';
 ```
 
 ## 业务组件
 
 ```sh
-yarn add @anthead/core-biz --registry http://192.168.4.202:4873/
+yarn add @brewer/anthill-core-biz
 ```
 
 ### 使用
 
 ```typescript
-import { BaseLogin } from '@anthead/core-biz';
+import { BaseLogin } from '@brewer/anthill-core-biz';
 ```

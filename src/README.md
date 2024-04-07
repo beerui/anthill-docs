@@ -23,7 +23,7 @@ highlights:
     bgImage: /assets/image/bg_2.png
     highlights:
       - title: 运行 <code>create ah</code> 以创建一个新的项目。
-      - title: 在已有项目根目录下运行 <code>yarn add @anthead/core</code> 以在项目中添加自有组件。
+      - title: 在已有项目根目录下运行 <code>yarn add @brewer/anthill-core</code> 以在项目中添加自有组件。
   - header: 文档汇集一堂
     bgImage: /assets/image/bg_3.png
     features:

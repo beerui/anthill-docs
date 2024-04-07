@@ -10,28 +10,28 @@ tag:
 ## 基础样式包安装
 
 ```sh
-yarn add @anthead/style --registry http://192.168.4.202:4873/
+yarn add @brewer/anthill-style --registry http://192.168.4.202:4873/
 ```
 
 ### 使用
 
 在项目的main.js中引用。
 ```typescript
-import '@anthead/style/tailwind-pc.css';
-import '@anthead/style/tailwind-h5.css';
-import '@anthead/style/reset.css';
+import '@brewer/anthill-style/tailwind-pc.css';
+import '@brewer/anthill-style/tailwind-h5.css';
+import '@brewer/anthill-style/reset.css';
 ```
 
 ### 公共方法安装
 
 ```sh
-yarn add @anthead/utils --registry http://192.168.4.202:4873/
+yarn add @brewer/anthill-utils --registry http://192.168.4.202:4873/
 ```
 
 ### 使用
 
 ```typescript
-import { DingTalk, openPage } from '@anthead/utils';
+import { DingTalk, openPage } from '@brewer/anthill-utils';
 
 // 钉钉自动登录
 DingTalk.AutoLogin({ redirectUrl: '', response: true });
