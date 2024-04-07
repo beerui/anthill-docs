@@ -1,0 +1,61 @@
+// place your custom styles here
+@media (min-width: 959px) {
+  .vp-sidebar-link.active {
+    border-inline-color: var(--theme-color);
+    background: var(--theme-color-mask);
+    color: var(--theme-color);
+    font-weight: 500;
+    border-radius: 0;
+    border-left: 3px solid;
+  }
+  .vp-hero-info {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transform: translateX(-118px);
+  }
+  .vp-hero-info-wrapper {
+    height: 660px;
+  }
+  .vp-highlight-bg, .vp-feature-bg {
+    background-attachment: inherit;
+  }
+  .vp-project-home div {
+    &:nth-child(3) {
+      height: 648px;
+    }
+    &:nth-child(4) {
+      height: 320px;
+      background: #1000A0;
+      .vp-highlight {
+        transform: translateX(0);
+        color: #fff;
+      }
+    }
+  }
+  .vp-feature {
+    .vp-feature-item:hover {
+      box-shadow: 0 -7px 3px 0 var(--card-shadow);
+      transform: translate(0, -3px);
+    }
+  }
+  .vp-highlight {
+    color: #222;
+    transform: translateX(500px);
+    margin: 0;
+    flex: auto;
+    padding: 0;
+    max-width: 720px;
+    height: 500px;
+    .vp-highlight-title {
+      color: #9b9b9b;
+      font-weight: normal;
+    }
+    .vp-highlight-info-wrapper {
+      padding: 0;
+    }
+  }
+  html[data-theme=dark] .vp-highlight, html[data-theme=dark] .vp-feature-bg + .vp-feature {
+    color: #222;
+  }
+}
