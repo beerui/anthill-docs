@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://docs.anthead.net/sitemap.xml
+Sitemap: https://docs.anthead.net/anthill-docs/sitemap.xml
