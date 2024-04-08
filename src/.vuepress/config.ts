@@ -8,7 +8,7 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import path from 'node:path'
 
 export default defineUserConfig({
-  base: "/",
+  base: "/anthill-docs",
 
   title: '蚂蚁窝设计前端委员会',
 
