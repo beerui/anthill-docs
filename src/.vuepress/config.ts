@@ -21,9 +21,15 @@ export default defineUserConfig({
 
   bundler: viteBundler({
     viteOptions: {
+
       build: {
+
+        optimizeDeps: {
+          exclude: ['@brewer/anthill-core', 'lodash']
+        },
         rollupOptions: {
-          plugins: [commonjs(), requireTransform({})]
+          plugins: [commonjs(), requireTransform({})],
+
         }, // we use this to inject input for MPA build below
       }
     },
